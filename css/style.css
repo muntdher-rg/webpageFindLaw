@@ -1,0 +1,130 @@
+.bg-light{
+    border-bottom: solid 3px #ffa100;
+}
+#hero{
+    height: 1000px;
+    background: url(../images/diverse-group-hero.jpg) ;
+    background-repeat: no-repeat;
+    background-position: top ;
+    position: relative;
+}
+#hero h1{
+    color: #4d4d4d;
+    font-weight: 100;
+    font-size: 50px;
+   text-align: center;
+    padding-top: 8px;
+}
+.formsearch{
+    position: absolute;
+    background: #4d4d4d;
+   border-radius: 5px;
+    bottom: 50px;
+    left: 150px;
+  
+}
+.formsearch h2{
+    text-align: center;
+ 
+    color: #fff;
+    margin-bottom: 15px;
+    display: inline-block;
+    margin-left: 0;
+
+}
+.search{
+    padding: 30px 20px 10px 200px;
+}
+.formsearch i{
+    font-size: 35px;
+    color: #cc4700;
+    margin-right: 0;
+}
+.btn-outline-success {
+    color:#fff;
+    border: #cc4700;
+    background: #cc4700;
+}
+    .btn-outline-success:hover {
+    color:#fff;
+    border: #cc4700;
+    background: #cc4700;
+}
+.formsearch form{
+    padding: 3px 100px 20px 210px;
+}
+.sec1{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.sec1 h3{
+    text-align: center;
+}
+.sec1 p{
+    text-align: center;
+}
+.container img{
+    width: 88px;
+    height: 90px;
+    background:#f5eaea;
+  
+    padding: 5px;
+    
+}
+
+.container h5{
+  font-size: 14px;
+    padding-left:5px
+}
+.news{
+    background: #ffa100;
+}
+ a{
+     text-decoration: none;
+     color: #666666;
+     display: block;
+     margin-top: 5px;
+    
+}
+.sec3 img:hover{
+    box-shadow:#000;
+}
+a:hover{
+    color: #ffa100;
+}
+.news a{
+    color: #ffa100
+}
+ .col-6{
+    background: #fff;
+    box-sizing: border-box;
+
+
+    
+
+}
+@media (Max-width:617px){
+    
+    #hero h1{
+        font-size:28px;
+        
+}
+}
+@media (max-width:710px){
+    .formsearch{
+        right: 15px;
+        left: 50px;
+    }
+}
+@media(max-width:700px){
+    .formsearch h2{
+        font-size: 18px;
+    }
+    .formsearch .search{
+  padding: 30px 20px 5px 25px;
+
+    }
+    .formsearch form{
+    padding: 3px 50px 20px 20px;
+}
+}
